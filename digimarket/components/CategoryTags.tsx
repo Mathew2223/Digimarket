@@ -1,19 +1,10 @@
 // components/CategoryTags.tsx
 import Link from 'next/link'
-
-const categories = [
-  { name: 'UI Kits', slug: 'ui-kits' },
-  { name: 'Templates', slug: 'templates' },
-  { name: 'Icons', slug: 'icons' },
-  { name: 'Code', slug: 'code' },
-  { name: 'Fonts', slug: 'fonts' },
-  { name: 'Components', slug: 'components' },
-  { name: 'Illustrations', slug: 'illustrations' },
-]
+import { categories } from '@/data/categories'
 
 export function CategoryTags() {
   return (
-    <div className="py-12 border-b border-gray-200">
+    <div className="py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap gap-3 justify-center">
           {categories.map((category) => (

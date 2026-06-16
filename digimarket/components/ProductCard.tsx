@@ -1,4 +1,3 @@
-// components/ProductCard.tsx
 'use client'
 
 import { Star, ShoppingCart } from 'lucide-react'
@@ -14,7 +13,6 @@ export function ProductCard({ product }: ProductCardProps) {
   
   return (
     <div className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-      {/* Изображение с градиентом */}
       <div className="relative h-48 gradient-card p-6">
         <span className="absolute top-4 left-4 bg-white/20 backdrop-blur-sm text-white text-xs font-medium px-3 py-1 rounded-full">
           {product.category}
@@ -23,8 +21,7 @@ export function ProductCard({ product }: ProductCardProps) {
           <span className="text-white/50 text-6xl">📦</span>
         </div>
       </div>
-      
-      {/* Контент */}
+
       <div className="p-5">
         <h3 className="font-semibold text-gray-900 text-lg mb-1 line-clamp-2">
           {product.title}

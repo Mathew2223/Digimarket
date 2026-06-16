@@ -6,7 +6,7 @@ export const mockProducts: Product[] = [
         title: 'Great Technology',
         author: 'Alex Chen',
         price: 29,
-        rating: 4.5,
+        rating: 5,
         category: 'UI Kits',
         image: './images/product-1.png'
     }, 
@@ -19,5 +19,14 @@ export const mockProducts: Product[] = [
         category: 'UI Kits',
         image: './images/product-1.png',
     },
+    {
+        id: '3',
+        title: 'Big experience',
+        author: 'Igor Larkin',
+        price: 26,
+        rating: 5,
+        category: 'UI Kits',
+        image: './images/product-1.png'
+    }
     // want more bro?
 ];
