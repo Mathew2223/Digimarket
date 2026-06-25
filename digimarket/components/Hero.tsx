@@ -17,8 +17,8 @@ export function Hero() {
               </span>
             </h1>
             <div className="flex flex-wrap gap-4">
-              <Link 
-                href="/catalog"
+              <Link
+                href="/categories/ui-kits"
                 className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-4 rounded-3xl font-semibold text-lg hover:bg-purple-700 transition-all hover:shadow-lg hover:-translate-y-0.5"
               >
                 Browse catalog

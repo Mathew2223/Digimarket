@@ -57,7 +57,11 @@ export default function SignInPage() {
                         type="submit"
                         className="w-full bg-purple-600 text-white py-2 rounded-lg font-medium hover:bg-purple-700 transition-colors"
                     >
-                        Sign Up
+                        <Link
+                            href="/auth/signin"
+                        >
+                            Sign Up
+                        </Link>
                     </button>
                 </form>
                 <p className="text-center text-sm text-gray-600 mt-4">
